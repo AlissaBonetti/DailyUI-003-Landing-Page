@@ -1,0 +1,230 @@
+body {
+    margin:0;
+    font-family: 'Mate', serif;
+}
+
+input {
+    width: 14rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    padding-left:.5rem;
+    color:#19456B;
+    font-family: 'Acme', sans-serif;
+}
+
+button {
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    background-color:#19456B;
+    color:#F8F1F1;
+    font-family: 'Acme', sans-serif;
+}
+
+button:hover {
+    background-color: #16C79A;
+}
+
+#introduction {
+    background-color: #F8F1F1;
+    padding-bottom: 12%;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 1% 10%;
+    background-color: #16C79A;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Merienda One', cursive;
+    font-weight: 900;
+    color:#19456B;
+    flex:3;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.navbar-info {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #F8F1F1;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0 0 1rem #19456B;
+}
+
+.link:hover {
+    color:#11698E;
+}
+
+.navbar-about {
+    flex:1;
+}
+
+.navbar-products {
+    flex:1;
+}
+
+.navbar-contact {
+    flex:1;
+}
+
+.heading {
+    display: flex;
+    flex-direction:row;
+    text-align:left;
+    padding: 3% 15% 7%;
+    height: 25rem;
+}
+
+.intro {
+    flex:3;
+    padding: 1% 6%;
+    color:#11698E;
+}
+
+.heading-candy {
+    flex:2;
+    display: flex;
+    flex-direction:column;
+    align-items:stretch;
+
+}
+
+.heading-h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: 0 0 1rem #16C79A;
+}
+
+.heading-h3 {
+    font-family: 'Acme', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: 0 0 1rem #16C79A;
+}
+
+.candy {
+    font-size: 2.1rem;
+    font-weight: 900;
+    color:#F8F1F1;
+    text-shadow: 0 0 3rem #19456B;
+    align-items:stretch;
+    text-decoration:none;
+}
+
+.candy:hover {
+    color:#11698E;
+}
+
+.choice {
+    border: .5rem solid;
+    border-color: #16C79A;
+    text-align: left;
+    padding-left:.5rem;
+    margin-top: .5rem;
+} 
+
+.gummies {
+    flex:1;
+    background-image: url(../images/gummy.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hard-candy {
+    flex:1;
+    background-image: url(../images/lollipop.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.novelty-candy {
+    flex:1;
+    background-image: url(../images/novelty.jpg);
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+.chocolate {
+    flex:1;
+    background-image: url(../images/coco.jpg);
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+.search-bar {
+    text-align: right;
+    padding: 3% 14% 0 0;
+
+}
+
+.search-icon {
+    margin-right:.3rem;
+}
+
+.shoutout {
+    font-size: .6rem;
+    color: #F8F1F1;
+    padding: 2.5rem .5rem 0 0;
+    text-align: right;
+    font-weight: 600;
+}
+
+.shoutout-link {
+    text-decoration: none;
+    color:#F8F1F1;
+}
+
+.shoutout-link:hover {
+    color:#11698E;
+}
+
+.social-icons {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#footer {
+    background-color:#16C79A;
+}
+
+.footer-icon {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color:#19456B;
+}
+
+.footer-icon:hover {
+    color:#F8F1F1;
+}
+
+.copyright {
+    text-align: center;
+    color:#F8F1F1;
+    padding: 1% 0;
+    margin: auto;
+}
